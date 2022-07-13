@@ -44,6 +44,27 @@ function getSentence(word1,word2,word3,word4,word5,word6) {
     return str;
 }
 
+/*** 01a. Funktionalität mit Array 1  */
+// Kritik | Überlegung
+// word1,word2, .... wordN :: Semantische Struktur
+// arr[0],arr[1] ... arr[n] ::Numerische Struktur (0,1,2,3 ... n)
+// --> Transformation semantisches Problem --> numerisches Problem
+output(getSentenceArr(["Ich","bin","Max","Mütze"]));
+function getSentenceArr(arr) {
+
+    const gap   = " ";
+    const punct = ".";
+    let str   =     arr[0] + gap +
+                    arr[1] + gap +
+                    arr[2] + gap +
+                    arr[3] +
+                    punct;
+
+    return str;
+}
+
+
+
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
 function output(inputStr) {
