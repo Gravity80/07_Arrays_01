@@ -4,6 +4,23 @@
 
 /*** 02. Theorie: Array */
 
+// let arr;
+// arr = new Array(); // Konstruktor
+// arr = []; // Literal
+// arr = [2,7,11,4]; // 4 Elemente
+// arr = [false,true,true];
+// arr = ["Ich","bin","Maxine","Mützerich"];
+
+// output(arr);
+// output(arr.length); // Anzahl der Elemente
+// output(arr[0]); // Index 0 (1. Pos. im Array)
+// output(arr[3]); // // letzte Pos.
+// output(arr[arr.length-1]); // // letzte Pos.
+
+
+
+
+
 
 
 /*** 01. Funktionalität mit Einzelparametern */
